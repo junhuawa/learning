@@ -1,0 +1,10 @@
+digraph g_attr_01 {
+        rankdir = LR
+        fontsize = 10
+        label = "Horizontal Graph Demo"
+        node [shape=box,style=filled, fillcolor=".7 .3 1.0", color=green, fontsize=10]
+       
+        A -> B[label = "go"]
+        B -> C -> D
+        B [shape = circle, color = red, style=solid, label="Trump"]
+}
